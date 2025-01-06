@@ -24,7 +24,7 @@ export default function Profile() {
   const navigate = useNavigate();
 
   // const BASE_URL = "http://localhost:5000";
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://todo-backend-wdy1.onrender.com";
 
   useEffect(() => {
     let id = localStorage.getItem("user-id");
