@@ -14,7 +14,7 @@ export default function Todo() {
   const [tickStyle, setTickStyle] = useState({});
 
   // const BASE_URL = "http://localhost:5000"
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://todo-backend-wdy1.onrender.com";
 
   // Fetching Data
   useEffect(() => {
